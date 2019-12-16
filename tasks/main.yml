@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible-role-php
 - name: Install software-properties-common
-  apt: name=software-properties-common state=installed
+  apt: name=software-properties-common state=present
 
 # Add ppa for installing PHP 7
 - name: Add the ondrej PHP PPA
